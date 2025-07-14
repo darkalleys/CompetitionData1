@@ -1,0 +1,32 @@
+# Generated output files
+*.npz
+Round*TestOutput*.npz
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary files
+/tmp/
+*.tmp
+*.temp
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
