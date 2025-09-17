@@ -19,7 +19,7 @@ def read_cfg_file(file_path):
 if __name__ == "__main__":
     print("<<< Welcome to 2025 Wireless Algorithm Contest! >>>\n")
     ## 不同轮次的输入数据可放在不同文件夹中便于管理，这里用户可以自定义
-    PathSet = {0: "./DebugData", 1: "./CompetitionData1", 2: "./CompetitionData2", 3: "./CompetitionData3"}
+    PathSet = {0: ".", 1: "./CompetitionData1", 2: "./CompetitionData2", 3: "./CompetitionData3"}
     PrefixSet = {0: "Round0", 1: "Round1", 2: "Round2", 3: "Round3"}
  
     Ridx = 0  # 设置比赛轮次索引，指明数据存放目录。0:Test; 1: 1st round; 2: 2nd round ...
